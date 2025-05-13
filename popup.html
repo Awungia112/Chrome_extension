@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PoW Solver</title>
+  </head>
+  <body>
+    <h1>Proof of Work</h1>
+    Challenge: <input id="challenge" type="text" /><br />
+    Difficulty: <input id="difficulty" type="number" value="1" min="1" /><br />
+    <button id="start">Compute PoW</button><br />
+    <div>Attempts: <span id="count">0</span></div>
+    <div>Result: <span id="result"></span></div>
+
+    <h2>History</h2>
+    <table id="history">
+      <tr>
+        <th>Challenge</th>
+        <th>Nonce</th>
+        <th>Hash</th>
+        <th>Time</th>
+      </tr>
+    </table>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
