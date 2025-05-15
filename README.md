@@ -1,6 +1,6 @@
 
 
-# Chrome Extension Starter
+# Proof Of Work Chrome Extension (PoW)
 
 A simple Chrome extension template with basic functionality to get started quickly, This  Chrome (Manifest V3) browser extension  lets the user submit a “challenge string” and a difficulty level d (number of leading zero hex-digits).
 ## Requirements
